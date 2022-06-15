@@ -1,0 +1,164 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img1/tontine1.gif" type="image/x-icon">
+    <title>LISTE DES MEMBRES</title>
+    <link rel="stylesheet" href="assets/css/listemembre.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+
+    
+  <div class="modal fade" id="erase" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #279C4F;">
+          <h5 class="modal-title" id="exampleModalLabel">Confirmer la suppression </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        Voulez-vous vraiment Supprimer cette ligne?
+        </div>
+        <div class="modal-footer btnn">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal" >Oui</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Non</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    <div class="bg" style="background-color: #4F1616;">
+    <div class="containair">
+        <div class="row">
+            <div class="col-md-2">
+                <img src="assets/img1/tontine1.gif" alt="image" class="loo">
+            </div>
+            <div class="col-md-8">
+                <p><h1 class="membre" style="color: white;">LISTE DES MEMBRES</h1></p>
+            </div>
+            <!-- <div class="col-md-2">
+                <button type="button" class="betetet" style="color: white; font-size: 32px;">Ajouter</button>
+            </div> -->
+        </div>
+    </div>
+    <div>
+    <table class="liste">
+        <tr class="ligne">
+            <th style="background-color: white; "><h3>Prénom</h3></th>
+            <th style="background-color: white;"><h3>Nom</h3></th>
+            <th style="background-color: white;"><h3>Sexe</h3></th>
+            <th style="background-color: white;"><h3>Numéro</h3></th>
+            <th style="background-color: white;"><h3>Adresse</h3></th>
+            <th style="background-color: white;"><h3 style="margin-left: 100px;">Action</h3></th>
+            <th style="background-color: white; margin-left: 40px;"><h3></h3></th>
+        </tr>
+        <tr class="ligne">
+            <td style="background-color: white;">Sanata</td>
+            <td style="background-color: white;">Fané</td>
+            <td style="background-color: white;">F</td>
+            <td style="background-color: white;">70770748</td>
+            <td style="background-color: white;">Missabougou</td>
+            <td style="background-color: white;"><button type="button" value="changed" class="mod" >Modifier</button></td>
+            <td style="background-color: white;"><button type="button" value="delete" class="sup">Supprimer</button></td>
+        </tr>
+        <tr class="ligne">
+            <td style="background-color: white;">Mariam</td>
+            <td style="background-color: white;">Coulibaly</td>
+            <td style="background-color: white;">F</td>
+            <td style="background-color: white;">64530089</td>
+            <td style="background-color: white;">Magnambougou</td>
+            <td style="background-color: white;"><button type="button" value="changed" class="mod">Modifier</button></td>
+            <td style="background-color: white;"><button type="button" value="delete" class="sup">Supprimer</button></td>
+        </tr>
+        <tr class="ligne">
+            <td style="background-color: white;">Aissata</td>
+            <td style="background-color: white;">Sidibe</td>
+            <td style="background-color: white;">F</td>
+            <td style="background-color: white;">65234510</td>
+            <td style="background-color: white;">hamdallaye</td>
+            <td style="background-color: white;"><button type="button" value="changed" class="mod">Modifier</button></td>
+            <td style="background-color: white;"><button type="button" value="delete" class="sup">Supprimer</button></td>
+        </tr>
+        <tr class="ligne">
+            <td style="background-color: white;">Djeneba</td>
+            <td style="background-color: white;">Dramé</td>
+            <td style="background-color: white;">F</td>
+            <td style="background-color: white;">78906754</td>
+            <td style="background-color: white;">Djelibougou</td>
+            <td style="background-color: white;"><button type="button" value="changed" class="mod">Modifier</button></td>
+            <td style="background-color: white;"><button type="button" value="delete" class="sup">Supprimer</button></td>
+        </tr>
+        <tr class="ligne">
+            <td style="background-color: white;">Salimata</td>
+            <td style="background-color: white;">Traoré</td>
+            <td style="background-color: white;">F</td>
+            <td style="background-color: white;">65234510</td>
+            <td style="background-color: white;">Sirakoro</td>
+            <td style="background-color: white;"><button type="button" value="changed" class="mod">Modifier</button></td>
+            <td style="background-color: white;"><button type="button" value="delete" class="sup">Supprimer</button></td>
+        </tr>
+        <tr class="ligne">
+            <td style="background-color: white;">Korotoumou</td>
+            <td style="background-color: white;">Diarra</td>
+            <td style="background-color: white;">F</td>
+            <td style="background-color: white;">65234510</td>
+            <td style="background-color: white;">Banankabougou</td>
+            <td style="background-color: white;"><button type="button" value="changed" class="mod">Modifier</button></td>
+            <td style="background-color: white;"><button type="button" value="delete" class="sup">Supprimer</button></td>
+        </tr>
+        <tr class="ligne">
+            <td style="background-color: white;">Souleymane</td>
+            <td style="background-color: white;">Diarra</td>
+            <td style="background-color: white;">M</td>
+            <td style="background-color: white;">65234510</td>
+            <td style="background-color: white;">Niamakoro</td>
+            <td style="background-color: white;"><button type="button" value="changed" class="mod">Modifier</button></td>
+            <td style="background-color: white;"><button type="button" value="delete" class="sup">Supprimer</button></td>
+        </tr>
+        <tr class="ligne">
+            <td style="background-color: white;">Ibrahima</td>
+            <td style="background-color: white;">Traoré</td>
+            <td style="background-color: white;">M</td>
+            <td style="background-color: white;">65234510</td>
+            <td style="background-color: white;">Faladie</td>
+            <td style="background-color: white;"><button type="button" value="changed" class="mod">Modifier</button></td>
+            <td style="background-color: white;"><button type="button" value="delete" class="sup">Supprimer</button></td>
+        </tr>
+        <tr class="ligne">
+            <td style="background-color: white;">Oumou</td>
+            <td style="background-color: white;">Dagnogo</td>
+            <td style="background-color: white;">F</td>
+            <td style="background-color: white;">65234510</td>
+            <td style="background-color: white;">Kati</td>
+            <td style="background-color: white;"><button type="button" value="changed" class="mod">Modifier</button></td>
+            <td style="background-color: white;"><button type="button" value="delete" class="sup">Supprimer</button></td>
+        </tr>
+        <tr class="ligne">
+            <td style="background-color: white;">Fatoumata</td>
+            <td style="background-color: white;">Cissé</td>
+            <td style="background-color: white;">F</td>
+            <td style="background-color: white;">65234510</td>
+            <td style="background-color: white;">Djelibougou</td>
+            <td style="background-color: white;"><button type="button" value="changed" class="mod">Modifier</button></td>
+            <td style="background-color: white;"><button type="button" value="delete" class="sup">Supprimer</button></td>
+        </tr>
+        <tr class="ligne">
+            <td style="background-color: white;">Mohamed</td>
+            <td style="background-color: white;">Koné</td>
+            <td style="background-color: white;">F</td>
+            <td style="background-color: white;">65234510</td>
+            <td style="background-color: white;">Niamana</td>
+            <td style="background-color: white;"><button type="button" value="changed" class="mod">Modifier</button></td>
+            <td style="background-color: white;"><button type="button" value="delete" class="sup">Supprimer</button></td>
+        </tr>
+    </table>
+</div>
+</div>
+<img src="assets/img/icone retour blanc.png" alt="image" style="width: 70px; margin-top: px; margin-left: 50%;">
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js.map"></script>
+</body>
+</html>

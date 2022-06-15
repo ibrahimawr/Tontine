@@ -1,0 +1,63 @@
+.liste{
+    color: black;
+    font-size: 20px;
+    font-family: ;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 30px;
+    border-collapse: separate;
+}
+.loo{
+    width: 200px;
+    margin-top: 20px;
+}
+.betetet{
+    width: 120px;
+    height: 55px;
+    margin-top: 40px;
+    margin-left: 50px;
+    background-color: #A60EC0;
+}
+th, td{
+    border: 1px solid black;
+    width: 10%;
+}
+caption{
+    font-weight: bold;
+}
+.membre{
+    text-align: center;
+    margin-top: 40px;
+}
+.mod{
+    background-color: green;
+    border: 5px solid green;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 25px;
+    color: white;
+    width: 100px;
+}
+.sup{
+    background-color: red;
+    border: 5px solid red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 27px;
+    color: white;
+}
+.ligne{
+    border: 1px solid black;
+}
+.dom{
+    width: 10px;
+    margin-top: -10px;
+}
+.pus{
+    width: 10px;
+    margin-top: -10px;
+}

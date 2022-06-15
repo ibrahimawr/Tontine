@@ -1,0 +1,51 @@
+table {
+    position: relative;
+    left: 50px;
+    border-collapse:collapse;
+    width:90%;
+    }
+   th, td {
+    border:1px solid black;
+    width:10%;
+    }
+   td {
+    text-align:center;
+    }
+   caption {
+    font-weight:bold
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        text-align: justify;
+    }
+    h1{
+        text-align: center;
+        color: white;
+    }
+    th{
+        color: purple;
+    }
+    .ss{
+        position: relative;
+        left: 550px;
+    }
+    .sa{
+        position: relative;
+        left: 50;
+        background-color: #4F1616;
+        height: 70px;
+        width: 1100px;
+        margin-left: 50px;
+        padding: 10px;
+        margin-right: 250px;
+    }
+    .aa{
+        position: relative;
+        margin-top: 10px;
+    }
+    .bb{
+        width: 60px; 
+        height: 60px;
+        margin-left: 500px;
+    }

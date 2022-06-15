@@ -1,0 +1,63 @@
+.v418_2 {
+    width: 570px;
+    height: 205px;
+    background-color: #4F1616;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 0px;
+    left: 395px;
+    overflow: hidden;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.bd {
+    width: 570px;
+    height: 452px;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    position: absolute;
+    top: 205px;
+    left: 395px;
+    overflow: hidden;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.olg {
+    width: 150px;
+    height: 130px;
+  margin-top: 40px;
+  margin-left: 210px;
+  font-size: 20px;
+}
+.transfert{
+    font-size: 30px;
+    margin-left: 176px;
+    margin-top: 295px
+}
+.succes{
+    font-size: 30px;
+    margin-left: 260px;
+    margin-top: -22px
+}
+.retour{
+    font-size: 30px;
+    margin-left: 280px;
+    margin-top: -20px
+}
+.ogl{
+  margin-top: -425px;
+  margin-left: 150px;
+  font-size: 20px;
+}

@@ -1,0 +1,28 @@
+/* body{
+position: relative;
+margin-left: 100px;
+margin-top: 50px;
+margin-right: 100px;
+margin-bottom: 100px;
+
+} */
+
+.titre{
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    color: lightblue;
+    margin-top: -5rem;
+}
+
+
+    
+#retour{
+    position: relative;
+    margin-top: 100px;
+   
+}
+
+.ajt{
+    top: 10px;
+}

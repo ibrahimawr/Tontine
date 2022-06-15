@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css.map">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="assets/img1/tontine1.gif" type="image/x-icon"> 
+    <title>Cotisation</title>
+    <link rel="stylesheet" href="Assets/Css/Cotisation.css">
+</head>
+<body>
+
+    <div class="modal fade" id="ajcotisation" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header" style="background-color: rgb(83, 4, 25); color: white;">
+              <h5 class="modal-title" id="exampleModalLabel">Enrégistrer la cotisation</h5> <img src="assets/img1/tontine1.gif" alt="">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="cons">
+                <form action="">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-5">
+                        
+                        <label for="name">Prenom</label> 
+                      </div>
+                      <div class="col-md-3">
+                        <input type="text" name="" id="">  
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col-md-5">
+                        <label for="username">Nom</label>
+                      </div>
+                      <div class="col-md-3">
+                        <input type="text" name="" id="unsername">
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col-md-5">
+                        <label for="username">Sexe</label>
+                      </div>
+                      <div class="col-md-3">
+                        <input type="text" name="" id="unsername">
+                      </div>
+                    </div>
+    
+                    <div class="row mt-4">
+                      <div class="col-md-5">
+                        <label for="username">Numéro</label>
+                      </div>
+                      <div class="col-md-3">
+                        <input type="text" name="" id="unsername">
+                      </div> 
+                      <div class="row mt-4">
+                        <div class="col-md-5">
+                          <label for="username">Adresse</label>
+                        </div>
+                        <div class="col-md-3">
+                          <input type="text" name="" id="unsername">
+                        </div>
+                      </div>
+                      <div class="row mt-4">
+                        <div class="col-md-5">
+                          <label for="username">Montant</label>
+                        </div>
+                        <div class="col-md-3">
+                          <input type="number" name="" id="unsername">
+                        </div>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-3">
+    
+                  </div>
+                  <div class="col-md-3">
+                    <button type="button" class="btn btn-danger"data-bs-dismiss="modal">Annuler</button>
+                  </div>
+                  <div class="col">
+                    <button type="button" class="btn btn-primary"  data-bs-dismiss="modal">Enregistrer</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+<div class="modal fade" id="edit" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #279C4F;">
+          <h5 class="modal-title" id="exampleModalLabel">Confirmer la modification </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        Voulez-vous vraiment modifier cette ligne?
+        </div>
+        <div class="modal-footer btnn">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal" >Oui</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Non</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="erase" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #279C4F;">
+          <h5 class="modal-title" id="exampleModalLabel">Confirmer la suppression </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        Voulez-vous vraiment Supprimer cette ligne?
+        </div>
+        <div class="modal-footer btnn">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal" >Oui</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Non</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="edited" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #279C4F;">
+          <h5 class="modal-title" id="exampleModalLabel">Confirmer la modification </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        Voulez-vous vraiment modifier cette ligne?
+        </div>
+        <div class="modal-footer btnn">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal" >Oui</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Non</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="erased" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #279C4F;">
+          <h5 class="modal-title" id="exampleModalLabel">Confirmer la suppression </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        Voulez-vous vraiment Supprimer cette ligne?
+        </div>
+        <div class="modal-footer btnn">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal" >Oui</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Non</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+    <div class="tet">
+        <a href="historiques.html"><button  class="va">Historiques</button></a>
+        <div>
+            <img src="assets/img1/tontine1.gif" alt="">
+        </div>
+        <div>
+            <h4>COTISATION</h4>
+        </div>
+        <button class="ajoutb" data-bs-toggle="modal" data-bs-target= "#ajcotisation">Ajouter</button>
+    </div> 
+    <div class="corps">
+     <!-- <a href="Statut.html"> <button  class="ajoutb">Lister</button></a> -->
+        <table >
+           
+            <tr>
+                <th>Prénom</th>
+                <th>Nom</th>
+                <th>Montant</th>
+                <th>Total</th>
+                <th>Actions</th>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <button type="button" style="background-color: green; color: white; border: none; border-radius: 14px; font-size:large; width: 176; height: 47;" data-bs-toggle="modal" data-bs-target="#edit">Modifier</button>
+                    <button type="button" style="background-color: red; color: white; border: none; border-radius: 14px; font-size:large; width: 176; height: 47;" data-bs-toggle="modal" data-bs-target="#erase">Supprimer</button>
+                </td>
+    
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>
+                    <button type="button" style="background-color: green; color: white; border: none; border-radius: 14px; font-size:large; width: 176; height: 47;"data-bs-toggle="modal" data-bs-target="#edited">Modifier</button>
+                    <button type="button" style="background-color: red; color: white; border: none; border-radius: 14px; font-size:large; width: 176; height: 47;"data-bs-toggle="modal" data-bs-target="#erased">Supprimer</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+    
+    <a href="tontine.html"><img src="assets/img/icone retour blanc.png" alt="" class="bb"></a>
+
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js.map"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.formul{
+  width: 700px;
+  height: 910px;
+  text-align: center;
+  margin-top: 30px;
+  margin-left: 420px;
+  background-color: #4F1616;
+}
+.booou{
+  margin-top: 50px;
+  width: 25%;
+  height: 7%;
+  background-color: blueviolet;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  margin-top: 110px;
+}
+input{
+  width: 60%;
+  height: 10%;
+  border-radius: 20px;
+  margin-top: 260px;
+}
+.diarra{
+  margin-top: -150px;
+}

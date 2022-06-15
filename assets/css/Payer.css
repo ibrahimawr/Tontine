@@ -1,0 +1,37 @@
+table {
+    position: relative;
+    left: 50px;
+    border-collapse:collapse;
+    width:90%;
+    height: 90px;
+    background-color: white;
+    }
+   th, td {
+    border:1px solid black;
+    width:10%;
+    }
+   caption {
+    font-weight:bold
+    }
+    .aa{
+        position: relative;
+        margin-top: 10px;
+        font-size: 20px;
+
+    }
+    h1{
+        font-size: 70px;
+        text-align: center;
+        color: white;
+    }
+    th{
+        background-color: silver;
+        text-align: left;
+    }
+    .bb{
+        width: 70px; 
+        height: 60px;
+        margin-left: 550px;
+        margin-top: 20px;
+    }
+   

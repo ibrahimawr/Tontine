@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TontineOline</title>  
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.rtl.min.css.map">
+  <link rel="shortcut icon" href="assets/img1/tontine1.gif" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity=
+  "sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+   crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <script src="assets/js/tontine.js"></script>
+  <link rel="stylesheet" href="assets/css/tontine.css">
+  
+</head>
+<body>
+  
+ 
+  <!-- Modal1 -->
+  <div class="modal fade" id="ajouter" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Effectuer</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          
+
+        </div>
+        <div class="modal-body">
+            <div class=" ">
+                <form action="">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-5">
+                        <label for="name">Nom</label> 
+                      </div>
+                      <div class="col-md-3">
+                        <input type="text" name="" id="">  
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col-md-5">
+                        <label for="username">Prenom</label>
+                      </div>
+                      <div class="col-md-3">
+                        <input type="text" name="" id="unsername">
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col-md-5">
+                        <label for="username">Montant</label>
+                      </div>
+                      <div class="col-md-3">
+                        <input type="text" name="" id="unsername">
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                       
+                      <div class="col-md-5">
+                    
+                      </div>
+                      <div class="col-md-3">
+                       
+                      </div>
+                    
+    
+                     
+                      </div>
+                    </div>
+                  </div>
+                </form>
+       
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-dismiss="modal">Cotiser</button>
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Annuler</button>
+          
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Modal2 -->
+  <div class="modal fade" id="ajoutermembre" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Effectuer</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          
+
+        </div>
+        <div class="modal-body">
+            <div class=" ">
+                <form action="">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-5">
+                        <label for="name">Nom</label> 
+                      </div>
+                      <div class="col-md-3">
+                        <input type="text" name="" id="">  
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col-md-5">
+                        <label for="username">Prenom</label>
+                      </div>
+                      <div class="col-md-3">
+                        <input type="text" name="" id="unsername">
+                      </div>
+                    </div>
+                    <div class="row mt-4">
+                      <div class="col-md-5">
+                        <label for="username">Adresse</label>
+                      </div>
+                      <div class="col-md-3">
+                        <input type="text" name="" id="unsername">
+                      </div>
+                    </div>
+                    <div class="row mt-4">                       
+                      <div class="col-md-5">
+                        <label for="username">sexe</label>
+                      </div>
+                      <div class="col-md-3">
+                        <input type="text" name="" id="unsername">
+                      </div>                     
+                      </div>
+                    </div>
+                  </div>
+                </form>       
+        </div>
+        <div class="modal-footer">
+        
+          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Valider</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="deconnect" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #279C4F;">
+          <h5 class="modal-title" id="exampleModalLabel">Confirmer la déconnexion </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        Voulez-vous vraiment vous déconnecter?
+        </div>
+        <div class="modal-footer btnn">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal" >Oui</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Non</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="quitter" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header" style="background-color: #279C4F;">
+          <h5 class="modal-title" id="exampleModalLabel">Confirmer la sortie  </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        Voulez-vous vraiment quitter le Tableau de bord?
+        </div>
+        <div class="modal-footer btnn">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal" >Oui</button>
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Non</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0" style="background-color: #5a045a;">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-1 text-white min-vh-100">
+                <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                    <!-- <span class="fs-5 d-none d-sm-inline"></span> -->
+                </a>
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link align-middle px-0">
+                          <img src="assets/img1/tontine1.gif" alt="" width="100px;" height="100px" class="logo">
+                            
+                            <i class="fs-4 bi-house"></i> <span class="ms-1 d-none d-sm-inline" style="color: white;"><a href="listemembre.html"><h6>MEMBRES</h6></a></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-speedometer2"></i> <span class="ms-1 d-none d-sm-inline justify-content-center" style="color: white;" ></span><strong style="color: white;">Ajouter</strong></span> </a>
+                        <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-0" data-bs-toggle="modal" data-bs-target="#ajoutermembre" style="color: white;"> <span class="d-none d-sm-inline" ></span>Ajouter membre </a>
+                            </li>
+                            <li>
+                                <a href="listemembre.html" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color: white;"> Lister membres</span>  </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-table"></i> <span class="ms-1 d-none d-sm-inline"><h6 style="color: white;"> <strong><a href="transfer.html">TRANSFERT</a></strong> </h6></span></a>
+                    </li>
+                    <li>
+                        <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-0 align-middle ">
+                            <i class="fs-4 bi-bootstrap"></i> <span class="ms-1 d-none d-sm-inline" style="color: white;"> <strong> COTISATION</strong> </span></a>
+                        <ul class="collapse nav flex-column ms-1" id="submenu2" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline"style="color: white;" data-bs-toggle="modal" data-bs-target="#ajouter">Effectuer</span> </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline"style="color: white;">lister</span> </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline" style="color: white;">DISCUSSION</span> </a>
+                            <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="ajouterdiscussion.html" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color: white;">Organiser</span> </a>
+                            </li>
+                            <!-- <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 2</a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 3</a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline">Product</span> 4</a>
+                            </li> -->
+                        </ul>
+                    </li>
+                    <!-- <li>
+                        <a href="#" class="nav-link px-0 align-middle">
+                            <i class="fs-4 bi-people"></i> <span class="ms-1 d-none d-sm-inline">Customers</span> </a>
+                    </li> -->
+                </ul>
+                <hr>
+                <!-- <div class="dropdown pb-4">
+                    <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="https://github.com/mdo.png" alt="hugenerd" width="30" height="30" class="rounded-circle">
+                        <span class="d-none d-sm-inline mx-1">loser</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+                        <li><a class="dropdown-item" href="#">New project...</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul>
+                </div> -->
+            </div>
+        </div>
+        
+        <div class="col py-3" style="background-color: rgb(83, 4, 25);">
+            <div class="container">
+                <div class="row-auto-col-auto">
+                    <div class="col-auto">
+
+                   <div> <h1 style="text-align: center;" class="titre">TONTINE ONLINE</h1></div>
+                    <button type="button" class="btn btn-link bg-gradient" data-bs-toggle="modal" data-bs-target="#deconnect">Déconnexion</button>
+                    </div>
+                </div>
+            </div>
+          
+            <a href="" data-bs-toggle="modal" data-bs-target="#quitter"><img src="assets/img/icone retour blanc.png" alt="" style="width: 50px;" class="ret" ></a>
+
+            <div class="container card-group">
+              <div class="nope-anim">
+              <div class="pulse-anim">
+              <div class="row-cols-md-3" style="border:white solid; width: 12rem; height: 9rem;" >
+                  <a href="listemembre.html"><h2>Membres</h2></a>
+                  <img src="assets/img1/49-497431_woman-and-boy-icon-hd-png-download.png" alt="png" class="icon-member" style=" width: 4rem; height: 2rem;">
+              </div>
+          </div>
+      </div> 
+      <a href="discussion.html">
+          <div class="nope-anim">
+          <div class="pulse-anim">
+              <div class="row-cols-md-3" style="border:white solid; width: 12rem; height: 9rem;"  >
+                 <h2>Discussion</h2>
+                  <img src="assets/img2/Discute-removebg-preview.png" alt="png" class="icon-member" >
+              </div>
+          </div>
+      </div>
+    </a>
+      <div class="nope-anim">
+          <div class="pulse-anim">
+              <div class="row-cols-md-3" style="border:white solid; width: 12rem; height: 9rem;" >
+                  <a href="cotisation.html"><h2 >Cotisation</h2></a>
+                  <img src="assets/img2/cotiserr-removebg-preview.png" alt="png" class="icon-member">
+              </div>
+             
+
+             
+          </div>
+      </div>
+
+      
+      <div >
+          <img src="assets/img2/self-introduction.gif" alt="" class="img1">
+
+       </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+ 
+
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js.map"></script>
+
+</body>
+</html>

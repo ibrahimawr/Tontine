@@ -1,0 +1,82 @@
+
+
+body{
+    background-color:rgb(83, 4, 25) ;
+    position: relative;
+   margin-top: 0%;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-bottom: 0%;
+}
+#butt{
+    position: relative;
+   
+
+left: 30px;
+}
+
+.discussion{
+
+    left: 100px;
+}
+.champ{
+    position: relative;
+    display: flex;
+   gap: 30px;
+   list-style: none;
+}
+.plus{
+    color: white;
+    position: relative;
+    left: 25px;
+
+}
+.dct{
+
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    top: 40px;
+}
+
+.titre{
+    text-align: center;
+    color: white;
+}
+
+.item{
+    text-align: right;
+    list-style: none;
+    position: relative;
+    right: 40px;
+    top: -30px;
+    
+}
+/* .espace1{
+    position: relative;
+    left: 27.2%;
+     border-radius: 5px;
+     top: -50%;
+} */
+/* .bt{
+    position: relative;
+    left: auto;
+    top: auto;
+}
+.bt0{
+    position: relative;
+    left: 27rem;
+    top: -3rem;
+} */
+
+.espace1-espace{
+    position: relative;
+    top:auto;
+    border-radius: 5px;
+    left: auto;
+    margin-top: -100px;
+   text-align: center;
+    display: block;
+    justify-content: center;
+}
+
